@@ -33,6 +33,10 @@ describe 'When a learning to update cells in AoHs,' do
     it 'the aoh_update method returns an updated aoh' do
       local_copy_of_aoh = assembled_aoh.dup
       result = aoh_update(local_copy_of_aoh, 1, :name, "Joelle van Dyne (PGOAT)")
+<<<<<<< HEAD
+=======
+      expect( 1, :name).to eq("Joelle van Dyne (PGOAT)")
+>>>>>>> b1905b074a66fff8d86eca70d9a04d839655ea15
     end
   end
 end
